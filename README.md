@@ -17,6 +17,6 @@ Go, also known as Golang, is an open-source programming language developed by Go
 - In summary, Go is a powerful and efficient programming language that offers simplicity, strong concurrency support, and excellent performance. Its intuitive syntax, rich standard library, and supportive community make it a compelling choice for building a wide range of applications.
 
 #  🚩 Source
-
+- Programmer Zaman Now (https://www.youtube.com/@ProgrammerZamanNow)
 
 
