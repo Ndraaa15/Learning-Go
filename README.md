@@ -1,3 +1,7 @@
+<p align="center">
+    <img width="250px" src="https://github.com/Ndraaa15/Learning-Go/assets/112854205/e8c1481b-3613-4a3d-9cf8-eb59e4f7eb82" alt="go" />
+</p>
+
 # 🧠 Learning-Go
 This repository showcases my journey of learning the Go programming language, starting from the fundamentals to more advanced concepts.
 
