@@ -1,4 +1,4 @@
-package testing
+package goroutine
 
 import (
 	"fmt"

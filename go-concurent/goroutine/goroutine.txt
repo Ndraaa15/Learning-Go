@@ -1,0 +1,7 @@
+Goroutine
+* Goroutine adalah sebuah function yang berjalan secara asynchronous atau bisa di bilang sebuah thread ringan yang sudah dikelola oleh go runtime.
+* Saat sebuah function di jalankan dalam goroutine, function tersebut akan berjalan secara asynchrounous artinya tidak akan menunggu function itu selesai untuk lanjut ke proses lain.
+* Aplikasi atau function akan lanjut ke proses lain tanpa menunggu goroutine yang di buat selesai.
+* Goroutine berjalan di dalam thread.
+* Running in concurently.
+* Goroutine dijalankan dengan Go Scheduler dimana jumlah threadnya sebanyak GOMAXPROCS (sejumlah core CPU).             

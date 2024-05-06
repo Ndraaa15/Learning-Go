@@ -1,11 +1,10 @@
-* Goroutine adalah sebuah function yang berjalan secara asynchronous atau bisa di bilang sebuah thread ringan.
-* Saat sebuah function di jalankan dalam goroutine, function tersebut akan berjalan secara asynchrounous artinya tidak akan menunggu function itu selesai untuk lanjut ke proses lain.
-* Aplikasi akan lanjut ke proses lain tanpa menunggu goroutine yang di buat selesai.
+Parallelism dan Concurrency
+* Parallelism adalah sebuah teknik untuk menjalankan beberapa tugas secara bersamaan, biasanya di lakukan pada multi-core processor.
+* Parallel programming merupakan teknik yang digunakan untuk memecahkan suatu masalah dengan cara membaginya menjadi bagian kecil dan dijalankan secara bersamaan.
+* Concurrency adalah kemampuan sebuah program untuk melakukan beberapa tugas secara bersamaan.
+* Concurrency biasanya di lakukan pada single-core processor. (bergantian)
 
-* Channel merupakan tempat komunikasi synchronous antar goroutine.
-* Pada channel terdapat 2 operasi yaitu receive dan send.
-* Saat melakukan pengiriman data ke channel, proses akan terblock sampai ada goroutine lain yang menerima data dari channel tersebut.
-* Channel cocok untuk pengganti async da await yang ada pada bahasa pemrograman lain.
-* Channel hanya bisa menampung 1 tipe data.
-* Channel harus di close setelah tidak di gunakan lagi apabila tidak maka akan menyebabkan memory leak.
-* Channel biasanya digunakan dalam multi thread konteks.
+CPU Bound dan I/O Bound
+* CPU Bound adalah sebuah program yang membutuhkan banyak prosesing power -> good for Parallelism.
+* I/O Bound adalah sebuah program yang membutuhkan banyak input/output operation -> good for Concurrency.
+
