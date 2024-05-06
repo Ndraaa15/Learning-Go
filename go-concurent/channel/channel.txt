@@ -1,0 +1,25 @@
+Channel
+* Channel merupakan tempat komunikasi synchronous (blocking) antar goroutine.
+* Penggunaan channel biasanya digunakan dalam goroutine yang berbeda
+* Pada channel terdapat 2 operasi yaitu receive dan send.
+* Saat melakukan pengiriman data ke channel, proses (goroutine) akan terblock sampai ada goroutine lain yang menerima data dari channel tersebut.
+* Blocking ini berarti tidak melanjutkan ke proses selanjutnya atau line code selanjutnya
+* Channel cocok untuk pengganti async da await yang ada pada bahasa pemrograman lain.
+* Channel hanya bisa menampung 1 tipe data.
+* Channel harus di close setelah tidak di gunakan lagi apabila tidak maka akan menyebabkan memory leak.
+* Channel biasanya digunakan dalam multi thread konteks.
+
+Channel as A Parameter
+* Parameter pada function di golang merupakan pass by value, dimana value akan di duplikasi lalu dikirimkan ke function parameter
+* By default the channel is already a pointer so it not pass by value, and it will reference to the original channel
+
+Channel In and Out
+* Terkadang ketika kita menggunakan channel sebagai paramater dalam suatu function kita ingin channel tersebut hanya bisa digunakan untuk menerima atau mengirim data
+* Kita bisa memberikan tanda bahwa channel tersebut hanya bisa diberikan atau menerima data.
+
+Channel Buffered
+* Channel buffered memungkinkan channel untuk menyimpan lebih dari 1 data
+* Channel buffered yaitu buffer yang digunakan untuk menampung data antrean di dalam channel
+
+Range Channel
+* Kadang terdapat sebuah kasus untuk suatu data akan dikirimkan terus menerus ke dalam channel namun channel tersebut terkadang tidak tahu kapan akan berhenti menerima data
