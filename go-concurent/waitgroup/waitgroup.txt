@@ -1,0 +1,5 @@
+Waitgroup
+* Waitgroup merupakan sebuah proses yang bisa digunakan untuk menunggu sebuah proses
+* Biasanya waitgroup digunakan untuk menunggu goroutine selesai melakukan prosesnya
+* Add(int) menambahkan total goroutine
+* Done() mennurunkan total add

@@ -1,0 +1,8 @@
+Pool
+* For concurency and pararell programming
+* Pool adalah implementasi design pattern yaitu objek pool pattern
+* Design pool pattern ini digunakan untuk menyimpan data, selanjutnya untuk menggunakan datanya kita bisa mengambil dari pool
+* setelah menggunakan datanya kita bisa menyimpannya kembali ke dalam pool
+* Pool sering digunakan untuk menyimpan koneksi ke database
+
+* Implementasi dari pool di golang sudah aman dari race condition

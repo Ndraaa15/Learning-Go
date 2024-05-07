@@ -1,0 +1,3 @@
+Deadlock
+* Deadlock adalah salah satu kondisi dimana goroutine tidak yang ada yng bisa berjalan karena saling menunggu lock
+* Oleh karena itu diperlukan manajemen locking yang baik

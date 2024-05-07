@@ -1,0 +1,4 @@
+Once
+* Once adalah sebuah fitur di golang yang memastikan bahwa sebuah function hanya di eksekusi sekali
+* Jadi berapa banyak pun goroutine yang mengakses, dipastikan hanya goroutine pertama yang bisa mengeksekusi functionya
+* Goroutine lain akan dihiraukan, artinya function tidak akan dieksekusi lagi

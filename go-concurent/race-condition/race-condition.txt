@@ -1,0 +1,3 @@
+Race Condition
+* Ketika menggunakan goroutine kita bisa menghadapi pararellism karena multithreading
+* Race condition merupakan suatu kondisi dimana shared variable diakses oleh lebih dari 1 proses atau goroutine secara bersamaan

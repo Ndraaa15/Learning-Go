@@ -1,0 +1,7 @@
+Select Channel
+* Apabail terdapat beberapa channel yang dibuat dan ingin mendapatkan data tersebut, dapat menggunakan select channel
+* Dengan select channel kita bisa memilih data tercepat dari beberapa channel, jika datang secara bersamaan di beberapa channel maka dipilih secara random
+
+Default Select
+* Ketika suatu channel tidak memiliki data maka select harus menunggu hingga data tersebut ada
+* Dalam select bisa menggunakan default, dimana ini akan dieksekusi jika memang di semua channel yang ada di select tidak terdapat data

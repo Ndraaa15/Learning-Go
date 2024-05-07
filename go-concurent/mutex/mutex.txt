@@ -1,0 +1,10 @@
+Mutex
+* Untuk mengatasi race condition kita bisa menggunakan mutex yang telah disediakan oleh golang
+* Mutex biasanya digunakan untuk locking dan unlocking, ketika sudah melakukan locking maka tidak ada yang bisa melakukan locking sampai mutex yang melakukan locking me-unlocking
+* Apabila melakukan lock terhadap mutex, maka hanya 1 goroutine yang diperbolehkan untuk mengakses
+
+RWMutex 
+* Read write mutex
+* Kita juga bisa menggunakan mutex untuk membaca data tidak hanya untuk mengubah data
+* Apabila kita menggunakan mutex, paka akan terjadi rebutan antara proses membaca dan mengubah shared variable
+* Dengan RWMutex terdapta 2 jenis locking untuk membaca dan mengubah
