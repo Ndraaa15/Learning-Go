@@ -1,0 +1,5 @@
+Mock
+* Mock merupakan objek yang sudah di program dengan ekspektasi tertentu sehingga ketika dipanggil, objek tersebut akan mengembalikan nilai yang sudah di program sebelumnya.
+* Mock merupakan salah satu teknik di dalam unit test dimana kita bisa membuat objek tiruan yang akan menggantikan objek aslinya.
+* Contoh penggunaan mock ketika kita ingin untuk memanggil third party, database, atau service lainnya yang tidak bisa diakses di dalam unit test.
+* Library testify memiliki fitur mock yang bisa digunakan untuk membuat mock objek.
