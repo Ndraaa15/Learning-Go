@@ -1,0 +1,2 @@
+Atomic
+* Package yang digunakan untuk melakukan proses pada data primitive secara aman (concurency)

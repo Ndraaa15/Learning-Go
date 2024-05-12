@@ -1,0 +1,10 @@
+Timer
+* Timer merupakan representasi suatu kejadian
+* Ketika waktu timer sudah expired, maka timer akan mengirimkan sinyal ke proses yang menunggu (channel)
+* Untuk membuat timer kita bisa merupakan time.NewTimer(duration)
+
+Ticker
+* Representasi kejadian yang berulang-ulang
+* Ketika waktu ticker sudah expired, maka ticker akan mengirimkan sinyal ke proses yang menunggu (channel)
+* Untuk membuat ticker kita bisa menggunakan time.NewTicker(duration)
+* Untuk menghentikan ticker kita bisa menggunakan ticker.Stop()

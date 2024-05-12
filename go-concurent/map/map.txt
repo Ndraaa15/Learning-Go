@@ -1,0 +1,7 @@
+Map
+* Struktur ini mirip dengan map yang ada di golang, namun yang membedakan adalah map ini aman untuk concurency
+* Ada beberapa function yang bisa digunakan untuk melakukan operasi pada concurrentMap
+* Store(key, value) : Menyimpan data ke dalam concurrentMap
+* Load(key) : Mengambil data dari concurrentMap
+* Delete(key) : Menghapus data dari concurrentMap
+* Range(func(key, value)) : Looping data pada concurrentMap

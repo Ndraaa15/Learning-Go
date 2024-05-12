@@ -1,0 +1,5 @@
+Gomaxprocs
+* Goroutine dijalankan di dalam thread
+* Untuk mengetahui jumlah thread yang digunakan, bisa menggunakan Gomaxprocs
+* Gomaxprocs bisa diatur dengan runtime.GOMAXPROCS(n)
+* Gomaxprocs defaultnya adalah jumlah CPU yang ada di komputer

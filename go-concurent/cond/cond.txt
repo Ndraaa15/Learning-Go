@@ -1,0 +1,7 @@
+Cond
+* Cond merupakan implementasi dari Conditional Statement yang digunakan untuk mengontrol alur program
+* Cond ini merupakan implementasi locking berbasis kondisi
+* Cond membutuhkan locker bisa menggunakan Mutex atau RWMutex untuk implementasi locking, namun di Cond terddapat function Wait() untuk menunggu apakah perlu menunggu atau tidak
+* Function Signal() digunakan untuk memberitahu bahwa kondisi sudah terpenuhi, atau memberi tahu bahwa sebuah goroutine tidak perlu menunggu lagi
+* Function Broadcast() digunakan untuk memberitahu bahwa kondisi sudah terpenuhi, atau memberi tahu bahwa semua goroutine tidak perlu menunggu lagi
+* Untuk membuat Cond, bisa menggunakan sync.NewCond(Locker)
